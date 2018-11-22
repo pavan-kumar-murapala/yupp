@@ -1,34 +1,78 @@
 {
-	"sections": [{
-		"title": "Recommended For You",
-		"tiles": [{
-			"subtitle": "",
-			"image_url": "http://images.whatsonindia.com/whatsontv/images/ProgrammeOfficialPoster/299FEDACB006644084C7507F6B5859CEC85C7AED4.jpg",
-			"title": "Aastha",
-			"action_data": "{\"videoId\" : \"\", \"type\" : \"player\",\"autoplay\" : false,\"path\" : \"program/play/-1\"}",
-			"is_playable": "true",
-			"image_ratio": "4by3"
-		}, {
-			"subtitle": "HD Channel",
-			"image_url": "http://images.whatsonindia.com/whatsontv/images/ProgrammeOfficialPoster/299FEDACB006644084C7507F6B5859CEC85C7AED4.jpg",
-			"title": "Arihant",
-			"action_data": "{\"videoId\" : \"\", \"type\" : \"content\",\"autoplay\" : false,\"path\" : \"channel/catchup/arihant123\"}",
-			"is_playable": "false",
-			"image_ratio": "4by3"
-		}, {
-			"subtitle": "",
-			"image_url": "http://images.whatsonindia.com/whatsontv/images/ProgramImages/74FAEB8A40E02E500DCB94138D152B17BAA94CA8.jpg",
-			"title": "Aastha Bhajan",
-			"action_data": "{\"videoId\" : \"\", \"type\" : \"list\",\"autoplay\" : false,\"path\" : \"catchup\"}",
-			"is_playable": "false",
-			"image_ratio": "4by3"
-		}, {
-			"subtitle": "",
-			"image_url": "http://images.whatsonindia.com/whatsontv/images/ProgrammeOfficialPoster/299FEDACB006644084C7507F6B5859CEC85C7AED4.jpg",
-			"title": "Vedic",
-			"action_data": "{\"videoId\":\"\", \"type\": \"details\", \"autoplay\":false, \"path\": \"channel/catchup/vedic\"}",
-			"is_playable": "false",
-			"image_ratio": "4by3"
-		}]
-	}]
+sections: [
+{
+title: "Popular Now",
+tiles: [
+{
+subtitle: "",
+image_url: "https://d229kpbsb5jevy.cloudfront.net/teleup/320/280/content/common/movie/images/cyoohg.jpeg",
+title: "BET Soul",
+action_data: "{"videoId":"", "type": "player", "autoplay":false, "path": "epg/play/-36"}",
+is_playable: "true",
+image_ratio: "4by3"
+},
+{
+subtitle: "",
+image_url: "https://d229kpbsb5jevy.cloudfront.net/teleup/320/280/content/common/movie/images/cyoohg.jpeg",
+title: "CMT HD",
+action_data: "{"videoId":"", "type": "player", "autoplay":false, "path": "epg/play/-48"}",
+is_playable: "true",
+image_ratio: "4by3"
+},
+{
+subtitle: "",
+image_url: "https:\/\/d2ivesio5kogrp.cloudfront.net\/static\/images\/where-is-kyra-banner.jpg",
+title: "Where is KYRA?",
+action_data: "{"videoId":"", "type": "details", "autoplay":false, "path": "movie/whereiskyra"}",
+is_playable: "false",
+image_ratio: "4by3"
+},
+{
+subtitle: "",
+image_url: "https:\/\/d2ivesio5kogrp.cloudfront.net\/static\/images\/rfaiom.jpg",
+title: "Blockers",
+action_data: "{"videoId":"", "type": "player", "autoplay":false, "path": "movie/play/blockers"}",
+is_playable: "true",
+image_ratio: "4by3"
+}
+]
+},
+{
+title: "Recommended For You",
+tiles: [
+{
+subtitle: "",
+image_url: "https:\/\/d229kpbsb5jevy.cloudfront.net\/teleup\/content\/common\/movie\/images\/rfaiom.jpeg",
+title: "BET Soul",
+action_data: "{"videoId":"", "type": "player", "autoplay":false, "path": "epg/play/-36"}",
+is_playable: "true",
+image_ratio: "16by9"
+},
+{
+subtitle: "",
+image_url: "https:\/\/d229kpbsb5jevy.cloudfront.net\/teleup\/content\/common\/movie\/images\/rfaiom.jpeg",
+title: "CMT HD",
+action_data: "{"videoId":"", "type": "player", "autoplay":false, "path": "epg/play/-48"}",
+is_playable: "true",
+image_ratio: "16by9"
+},
+{
+subtitle: "",
+image_url: "https:\/\/d229kpbsb5jevy.cloudfront.net\/teleup\/content\/common\/movie\/images\/rfaiom.jpeg",
+title: "Where is KYRA?",
+action_data: "{"videoId":"", "type": "details", "autoplay":false, "path": "movie/whereiskyra"}",
+is_playable: "false",
+image_ratio: "16by9"
+},
+{
+subtitle: "",
+image_url: "https:\/\/d229kpbsb5jevy.cloudfront.net\/teleup\/content\/common\/movie\/images\/rfaiom.jpeg",
+title: "Blockers",
+action_data: "{"videoId":"", "type": "player", "autoplay":false, "path": "movie/play/blockers"}",
+is_playable: "false",
+image_ratio: "16by9"
+}
+]
+}
+]
 }
